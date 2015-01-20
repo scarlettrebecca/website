@@ -1,0 +1,9 @@
+
+- image: foo.jpg
+  label: Foo
+
+- image: bar.jpg
+  label: Bar
+
+- image: baz.jpg
+  label: Baz

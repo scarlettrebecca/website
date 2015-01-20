@@ -1,0 +1,15 @@
+
+name: Scarlett Rebecca
+
+about: >
+    <p>This is some information about you.</p>
+    <p>You can use HTML in here.</p>
+
+links:
+
+  - label: Twitter
+    url: https://twitter.com/scarlettrebecca
+    icon: twitter
+
+  - label: Example
+    url: http://example.com/

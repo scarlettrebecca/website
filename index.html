@@ -1,0 +1,75 @@
+---
+---
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+
+    <meta charset="utf-8"/>
+    <title>{{site.data.author.name|xml_escape}}</title>
+
+    <link rel="stylesheet" href="/asset/style/site.css"/>
+
+</head>
+<body>
+
+    <div class="page" itemscope itemtype="http://schema.org/Person">
+
+        <header role="banner">
+            <div class="page-header">
+                <h1 itemprop="name">{{site.data.author.name|xml_escape}}</h1>
+                <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
+                <meta itemprop="jobTitle" content="Illustrator"/>
+                <ul>
+                    {% for link in site.data.author.links %}
+                        <li>
+                            <a rel="me" href="{{link.url|xml_escape}}" class="icon {% if link.icon %}icon-{{link.icon|xml_escape}}{% else %}icon-link{% endif %}">{{link.label|xml_escape}}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+        </header>
+
+        <main role="main">
+            <div class="page-content">
+
+                <section>
+                    <h1>My Work</h1>
+                    <ul>
+                        {% for work in site.data.work %}
+                            <li>
+                                <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+
+                <section>
+                    <h1>About Me</h1>
+                    <div itemprop="description">
+                        {{site.data.author.about}}
+                    </div>
+                    <ul>
+                        {% for link in site.data.author.links %}
+                            <li>
+                                <a href="{{link.url|xml_escape}}" class="icon {% if link.icon %}icon-{{link.icon|xml_escape}}{% else %}icon-link{% endif %}">{{link.label|xml_escape}}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </section>
+
+            </div>
+        </main>
+
+        <footer role="contentinfo">
+            <div class="page-footer">
+                <small>
+                    Copyright &copy; {{ site.time | date: '%Y' }},
+                    {{site.data.author.name|xml_escape}}
+                </small>
+            </div>
+        </footer>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+exclude:
+  - CNAME
+  - Makefile
+  - README.md
+
+future: false
+
+highlighter: pygments
+
+lsi: false
+
+markdown: kramdown
+
+safe: true
+sass:
+  sass_dir: asset/style
+  style: :compressed
+
+timezone: Europe/London
