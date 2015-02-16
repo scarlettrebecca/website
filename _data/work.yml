@@ -1,9 +1,24 @@
 
-- image: foo.jpg
-  label: Foo
+- image: aunty-flo.jpg
+  label: Aunty Flo
 
-- image: bar.jpg
-  label: Bar
+- image: fantastica.jpg
+  label: Fantastica T-Shirt Prints
 
-- image: baz.jpg
-  label: Baz
+- image: far-out-1.jpg
+  label: Far Out Poster 1
+
+- image: far-out-2.jpg
+  label: Far Out Poster 2
+
+- image: hairstyles.jpg
+  label: Hairstyles
+
+- image: peugeot.jpg
+  label: Peugeot
+
+- image: tara-and-jason.jpg
+  label: Tara and Jason Wedding Invitation
+
+- image: under-the-sea-zine.jpg
+  label: Under The Sea Zine

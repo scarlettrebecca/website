@@ -5,3 +5,84 @@
 // Vendor styles
 @import "vendor/necolas/normalize";
 @import "vendor/rowanmanning/rem";
+
+
+// Page layout
+// -----------
+
+.page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+@media all and (max-width: 1000px) {
+    .page {
+        max-width: 600px;
+    }
+}
+@media all and (max-width: 400px) {
+    .page {
+        max-width: 300px;
+    }
+}
+
+
+// List styles
+// -----------
+
+.secret-list {
+    list-style: none;
+    padding-left: 0;
+}
+.secret-list > li {
+    display: block;
+}
+
+.image-grid li {
+    width: 25%;
+    float: left;
+}
+.image-grid div {
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.image-grid.last div {
+    padding-right: 0;
+}
+.image-grid img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+}
+@media all and (max-width: 1000px) {
+    .image-grid.tablet-last div {
+        padding-right: 0;
+    }
+    .image-grid li {
+        width: 50%;
+    }
+}
+@media all and (max-width: 400px) {
+    .image-grid div {
+        padding-right: 0;
+    }
+    .image-grid li {
+        width: auto;
+        padding-right: 0;
+    }
+}
+
+
+// Clearing
+// --------
+
+.clearfix {
+    zoom: 1;
+}
+.clearfix:before, .clearfix:after {
+    display: table;
+    content: '';
+}
+.clearfix:after {
+    clear: both;
+}

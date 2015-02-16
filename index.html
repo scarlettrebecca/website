@@ -7,7 +7,7 @@
     <meta charset="utf-8"/>
     <title>{{site.data.author.name|xml_escape}}</title>
 
-    <link rel="stylesheet" href="/asset/style/site.css"/>
+    <link rel="stylesheet" href="asset/style/site.css"/>
 
 </head>
 <body>
@@ -34,10 +34,12 @@
 
                 <section>
                     <h1>My Work</h1>
-                    <ul>
+                    <ul class="secret-list image-grid clearfix">
                         {% for work in site.data.work %}
-                            <li>
-                                <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
+                            <li class="{% cycle '', 'tablet-last', '', 'last' %}">
+                                <div>
+                                    <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
+                                </div>
                             </li>
                         {% endfor %}
                     </ul>
