@@ -2,17 +2,17 @@
 - image: aunty-flo.jpg
   label: Aunty Flo
 
-- image: fantastica.jpg
-  label: Fantastica T-Shirt Prints
-
 - image: far-out-1.jpg
   label: Far Out Poster 1
+
+- image: hairstyles.jpg
+  label: Hairstyles
 
 - image: far-out-2.jpg
   label: Far Out Poster 2
 
-- image: hairstyles.jpg
-  label: Hairstyles
+- image: fantastica.jpg
+  label: Fantastica T-Shirt Prints
 
 - image: peugeot.jpg
   label: Peugeot
