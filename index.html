@@ -50,13 +50,6 @@
                     <div itemprop="description">
                         {{site.data.author.about}}
                     </div>
-                    <ul>
-                        {% for link in site.data.author.links %}
-                            <li>
-                                <a href="{{link.url|xml_escape}}" class="icon {% if link.icon %}icon-{{link.icon|xml_escape}}{% else %}icon-link{% endif %}">{{link.label|xml_escape}}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
                 </section>
 
             </div>
