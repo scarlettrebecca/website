@@ -6,11 +6,28 @@
 
     <meta charset="utf-8"/>
     <title>{{site.data.author.name|xml_escape}}</title>
+    <meta name="description" content="{{site.data.author.description | xml_escape}}"/>
 
-    <link rel="stylesheet" href="asset/style/site.css"/>
+    <meta name="viewport" content="width=device-width"/>
+    <!--[if gt IE 6]><!-->
+        <link rel="stylesheet" href="asset/style/site.css"/>
+    <!--<![endif]-->
+    <link rel="icon" href="/favicon.png" type="image/png"/>
+    <link rel="shortcut icon" href="/favicon.ico"/>
 
 </head>
 <body>
+
+    <!--[if lte IE 8]>
+        <p style="background:#ffc;margin:0;padding:10px;">
+            <small>
+                You are using an outdated version of Internet Explorer. Parts of this site, and others,
+                may appear broken.<br/>
+                For a faster and safer browsing experience,
+                <a href="http://browsehappy.com/" target="_blank">Upgrade your browser</a>.
+            </small>
+        </p>
+    <![endif]-->
 
     <div class="page" itemscope itemtype="http://schema.org/Person">
 

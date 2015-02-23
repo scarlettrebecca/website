@@ -1,10 +1,21 @@
 
+# Your name. Duh.
 name: Scarlett Rebecca
 
+# A description of you. Appears in search engines.
+# Keep to ~155 characters.
+description: Scarlett Rebecca is an illustrator and print-maker living in Brighton. She smells of poop because that's all her diet consists of.
+
+# The "About Me" text at the bottom of the page.
+# This can be HTML, and all text should be wrapped
+# in <p> tags. Ask me if you need help.
 about: >
     <p>This is some information about you consectetur adipiscing elit. Aliquam non commodo justo. Phasellus iaculis erat <a href="http://example.com/">scelerisque iaculis</a> fringilla. Quisque a tincidunt metus. Morbi tempor mauris vitae fermentum feugiat.</p>
     <p>You can use HTML in here. Nulla luctus sed turpis vehicula lacinia. Nam eros dui, mattis ac tortor ut, elementum mollis <a href="http://scarlettrebecca.co.uk/">turpis</a>. Sed augue augue, pretium id elementum vitae, auctor at neque. Integer pharetra mauris nulla, sed porttitor dolor gravida ut</p>
 
+# Links that appear in the header. Each link has
+# a label, URL, and icon name. You will only see
+# icons for ones that I've coded.
 links:
 
   - label: Twitter
