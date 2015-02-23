@@ -7,6 +7,42 @@
 @import "vendor/rowanmanning/rem";
 
 
+// Typography
+// ----------
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6em;
+    line-height: 1.563;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: #333;
+}
+h1, h2 {
+    font-weight: normal;
+}
+h1, .h1 {
+    @include rem(font-size, 30px);
+}
+h2, .h2 {
+    @include rem(font-size, 20px);
+}
+h1, h2, p, ul, ol, .type-margin {
+    margin-top: 0;
+    @include rem(margin-bottom, 25px);
+}
+.type-margin-x2 {
+    @include rem(margin-bottom, 50px);
+}
+.type-margin-x3 {
+    @include rem(margin-bottom, 75px);
+}
+.cramp {
+    margin-bottom: 0;
+}
+
+
 // Page layout
 // -----------
 
@@ -27,6 +63,58 @@
 }
 
 
+// Content styles
+// --------------
+
+.text-content {
+    max-width: 48%;
+}
+@media all and (max-width: 1000px) {
+    .text-content {
+        max-width: none;
+    }
+}
+
+
+// Display
+// -------
+
+.cleared {
+    zoom: 1;
+}
+.cleared:before, .cleared:after {
+    display: table;
+    content: '';
+}
+.cleared:after {
+    clear: both;
+}
+
+.hidden {
+    position: absolute;
+    top: -999999em;
+    left: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.pin-left {
+    float: left;
+}
+.pin-right {
+    float: right;
+}
+.unpin {
+    float: none;
+}
+@media all and (max-width: 1000px) {
+    .mq1000-unpin {
+        float: none;
+    }
+}
+
+
 // List styles
 // -----------
 
@@ -38,6 +126,10 @@
     display: block;
 }
 
+.inline-list > li {
+    display: inline;
+}
+
 .image-grid li {
     width: 25%;
     float: left;
@@ -45,9 +137,6 @@
 .image-grid div {
     padding-right: 10px;
     padding-bottom: 10px;
-}
-.image-grid.last div {
-    padding-right: 0;
 }
 .image-grid img {
     width: 100%;
@@ -70,19 +159,4 @@
         width: auto;
         padding-right: 0;
     }
-}
-
-
-// Clearing
-// --------
-
-.clearfix {
-    zoom: 1;
-}
-.clearfix:before, .clearfix:after {
-    display: table;
-    content: '';
-}
-.clearfix:after {
-    clear: both;
 }

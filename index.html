@@ -15,26 +15,32 @@
     <div class="page" itemscope itemtype="http://schema.org/Person">
 
         <header role="banner">
-            <div class="page-header">
-                <h1 itemprop="name">{{site.data.author.name|xml_escape}}</h1>
+            <div class="type-margin cleared">
+
+                <h1 class="cramp pin-left mq1000-unpin" itemprop="name">
+                    {{site.data.author.name|xml_escape}}
+                </h1>
+
                 <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
                 <meta itemprop="jobTitle" content="Illustrator"/>
-                <ul>
+
+                <ul class="secret-list inline-list cramp pin-right mq1000-unpin h1">
                     {% for link in site.data.author.links %}
                         <li>
                             <a rel="me" href="{{link.url|xml_escape}}" class="icon {% if link.icon %}icon-{{link.icon|xml_escape}}{% else %}icon-link{% endif %}">{{link.label|xml_escape}}</a>
                         </li>
                     {% endfor %}
                 </ul>
+
             </div>
         </header>
 
         <main role="main">
-            <div class="page-content">
+            <div class="type-margin-x3">
 
                 <section>
-                    <h1>My Work</h1>
-                    <ul class="secret-list image-grid clearfix">
+                    <h2 class="hidden">My Work</h2>
+                    <ul class="secret-list image-grid cleared">
                         {% for work in site.data.work %}
                             <li class="{% cycle '', 'tablet-last', '', 'last' %}">
                                 <div>
@@ -46,8 +52,8 @@
                 </section>
 
                 <section>
-                    <h1>About Me</h1>
-                    <div itemprop="description">
+                    <h2>About Me</h2>
+                    <div class="text-content" itemprop="description">
                         {{site.data.author.about}}
                     </div>
                 </section>
@@ -56,12 +62,10 @@
         </main>
 
         <footer role="contentinfo">
-            <div class="page-footer">
-                <small>
-                    Copyright &copy; {{ site.time | date: '%Y' }},
-                    {{site.data.author.name|xml_escape}}
-                </small>
-            </div>
+            <small>
+                Copyright &copy; {{ site.time | date: '%Y' }},
+                {{site.data.author.name|xml_escape}}
+            </small>
         </footer>
 
     </div>

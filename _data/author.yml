@@ -2,8 +2,8 @@
 name: Scarlett Rebecca
 
 about: >
-    <p>This is some information about you.</p>
-    <p>You can use HTML in here.</p>
+    <p>This is some information about you consectetur adipiscing elit. Aliquam non commodo justo. Phasellus iaculis erat <a href="http://example.com/">scelerisque iaculis</a> fringilla. Quisque a tincidunt metus. Morbi tempor mauris vitae fermentum feugiat.</p>
+    <p>You can use HTML in here. Nulla luctus sed turpis vehicula lacinia. Nam eros dui, mattis ac tortor ut, elementum mollis <a href="http://scarlettrebecca.co.uk/">turpis</a>. Sed augue augue, pretium id elementum vitae, auctor at neque. Integer pharetra mauris nulla, sed porttitor dolor gravida ut</p>
 
 links:
 
