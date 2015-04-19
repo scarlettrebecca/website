@@ -223,20 +223,20 @@ a:visited {
     background-size: 36px 36px;
 }
 .icon-instagram-36x36 {
-    background-image: url('/asset/image/icon/instagram-36x36.png');
-    background-image: url('/asset/image/icon/instagram-36x36.svg'), none;
+    background-image: url('../image/icon/instagram-36x36.png');
+    background-image: url('../image/icon/instagram-36x36.svg'), none;
 }
 .icon-link-36x36 {
-    background-image: url('/asset/image/icon/link-36x36.png');
-    background-image: url('/asset/image/icon/link-36x36.svg'), none;
+    background-image: url('../image/icon/link-36x36.png');
+    background-image: url('../image/icon/link-36x36.svg'), none;
 }
 .icon-tumblr-36x36 {
-    background-image: url('/asset/image/icon/tumblr-36x36.png');
-    background-image: url('/asset/image/icon/tumblr-36x36.svg'), none;
+    background-image: url('../image/icon/tumblr-36x36.png');
+    background-image: url('../image/icon/tumblr-36x36.svg'), none;
 }
 .icon-twitter-36x36 {
-    background-image: url('/asset/image/icon/twitter-36x36.png');
-    background-image: url('/asset/image/icon/twitter-36x36.svg'), none;
+    background-image: url('../image/icon/twitter-36x36.png');
+    background-image: url('../image/icon/twitter-36x36.svg'), none;
 }
 
 
@@ -250,8 +250,8 @@ a:visited {
     background-size: 52px auto;
     background-position: center center;
     background-repeat: no-repeat;
-    background-image: url('/asset/image/logo-52x36.png');
-    background-image: url('/asset/image/logo-52x36.svg'), none;
+    background-image: url('../image/logo-52x36.png');
+    background-image: url('../image/logo-52x36.svg'), none;
 }
 @media all and (max-width: 400px) {
     .logo {
