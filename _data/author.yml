@@ -23,6 +23,10 @@ about: >
 # icons for ones that I've coded.
 links:
 
+  - label: Email Scarlett
+    url: mailto:contact@scarlettrebecca.co.uk
+    icon: email
+
   - label: Scarlett Rebecca on Twitter
     url: https://twitter.com/scarlettrebecca
     icon: twitter
