@@ -53,6 +53,9 @@ h1, h2, p, ul, ol, .type-margin {
     text-indent: -9999px;
     overflow: hidden;
 }
+.center {
+    text-align: center;
+}
 a {
     color: #2c9f96;
     text-decoration: none;
@@ -73,9 +76,16 @@ a:visited {
     margin: 0 auto;
     padding: 20px;
 }
+.micro-page {
+    max-width: 500px;
+    margin: 150px auto;
+}
 @media all and (max-width: 800px) {
     .page {
         max-width: 600px;
+    }
+    .micro-page {
+        margin: 50px auto;
     }
 }
 @media all and (max-width: 400px) {

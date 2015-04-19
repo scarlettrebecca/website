@@ -1,117 +1,37 @@
 ---
+layout: page
 ---
-<!DOCTYPE html>
-<html lang="en-GB">
-<head>
 
-    <meta charset="utf-8"/>
-    <title>{{site.data.author.name|xml_escape}}</title>
-    <meta name="description" content="{{site.data.author.description | xml_escape}}"/>
+<section>
+    <h2 class="hidden">My Work</h2>
+    <ul class="secret-list image-grid cleared">
+        {% for work in site.data.work %}
+            <li class="{% cycle '', 'tablet-last', '', 'last' %}">
+                <div>
+                    <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
+                </div>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
 
-    <meta name="viewport" content="width=device-width"/>
-    <!--[if gt IE 6]><!-->
-        <link rel="stylesheet" href="asset/style/site.css"/>
-    <!--<![endif]-->
-    <link rel="icon" href="/favicon.png" type="image/png"/>
-    <link rel="shortcut icon" href="/favicon.ico"/>
-
-    <script>
-        if (/^(www\.)?scarlettrebecca.co.uk$/.test(document.location.host)) {
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-16915085-2', 'auto');
-            ga('send', 'pageview');
-        }
-    </script>
-
-</head>
-<body>
-
-    <!--[if lte IE 8]>
-        <p style="background:#ffc;margin:0;padding:10px;">
-            <small>
-                You are using an outdated version of Internet Explorer. Parts of this site, and others,
-                may appear broken.<br/>
-                For a faster and safer browsing experience,
-                <a href="http://browsehappy.com/" target="_blank">Upgrade your browser</a>.
-            </small>
-        </p>
-    <![endif]-->
-
-    <div class="page" itemscope itemtype="http://schema.org/Person">
-
-        <header role="banner">
-            <div class="type-margin cleared">
-
-                <h1 class="cramp pin-left mq1000-unpin">
-                    <span class="logo">&nbsp;</span>
-                    <span itemprop="name">{{site.data.author.name|xml_escape}}</span>
-                </h1>
-
-                <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
-                <meta itemprop="jobTitle" content="Illustrator"/>
-
-                <ul class="secret-list floated-list cramp pin-right mq1000-hidden h1">
-                    {% for link in site.data.author.links %}
-                        <li class="ma10 ml0">
-                            <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-
+<section>
+    <h2>About Me</h2>
+    {% if site.data.author.image %}
+        <div class="pin-left profile-image">
+            <div class="profile-image-inner">
+                <img src="image/{{site.data.author.image}}" alt="{{site.data.author.name}}" itemprop="image"/>
             </div>
-        </header>
-
-        <main role="main">
-            <div class="type-margin-x3">
-
-                <section>
-                    <h2 class="hidden">My Work</h2>
-                    <ul class="secret-list image-grid cleared">
-                        {% for work in site.data.work %}
-                            <li class="{% cycle '', 'tablet-last', '', 'last' %}">
-                                <div>
-                                    <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
-                                </div>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </section>
-
-                <section>
-                    <h2>About Me</h2>
-                    {% if site.data.author.image %}
-                        <div class="pin-left profile-image">
-                            <div class="profile-image-inner">
-                                <img src="image/{{site.data.author.image}}" alt="{{site.data.author.name}}" itemprop="image"/>
-                            </div>
-                        </div>
-                    {% endif %}
-                    <div class="text-content" itemprop="description">
-                        {{site.data.author.about}}
-                    </div>
-                    <ul class="secret-list floated-list cleared">
-                        {% for link in site.data.author.links %}
-                            <li class="mr10">
-                                <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                </section>
-
-            </div>
-        </main>
-
-        <footer role="contentinfo">
-            <small>
-                Copyright &copy; {{ site.time | date: '%Y' }},
-                {{site.data.author.name|xml_escape}}
-            </small>
-        </footer>
-
+        </div>
+    {% endif %}
+    <div class="text-content" itemprop="description">
+        {{site.data.author.about}}
     </div>
-
-</body>
-</html>
+    <ul class="secret-list floated-list cleared">
+        {% for link in site.data.author.links %}
+            <li class="mr10">
+                <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
