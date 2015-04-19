@@ -18,9 +18,14 @@ about: >
 # icons for ones that I've coded.
 links:
 
-  - label: Twitter
+  - label: Scarlett Rebecca on Twitter
     url: https://twitter.com/scarlettrebecca
     icon: twitter
 
-  - label: Example
-    url: http://example.com/
+  - label: Scarlett Rebecca on Instagram
+    url: https://instagram.com/scarlettrebecca
+    icon: instagram
+
+  - label: Scarlett Rebecca's Tumblr
+    url: http://scarlettrebecca.tumblr.com/
+    icon: tumblr

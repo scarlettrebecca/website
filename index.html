@@ -41,10 +41,10 @@
                 <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
                 <meta itemprop="jobTitle" content="Illustrator"/>
 
-                <ul class="secret-list inline-list cramp pin-right mq1000-unpin h1">
+                <ul class="secret-list floated-list cramp pin-right mq1000-unpin h1">
                     {% for link in site.data.author.links %}
-                        <li>
-                            <a rel="me" href="{{link.url|xml_escape}}" class="icon {% if link.icon %}icon-{{link.icon|xml_escape}}{% else %}icon-link{% endif %}">{{link.label|xml_escape}}</a>
+                        <li class="ma10 ml0">
+                            <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
                         </li>
                     {% endfor %}
                 </ul>
@@ -73,6 +73,13 @@
                     <div class="text-content" itemprop="description">
                         {{site.data.author.about}}
                     </div>
+                    <ul class="secret-list floated-list cleared">
+                        {% for link in site.data.author.links %}
+                            <li class="mr10">
+                                <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
                 </section>
 
             </div>

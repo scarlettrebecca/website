@@ -41,6 +41,10 @@ h1, h2, p, ul, ol, .type-margin {
 .cramp {
     margin-bottom: 0;
 }
+.hide-text {
+    text-indent: -9999px;
+    overflow: hidden;
+}
 a {
     color: #2c9f96;
     text-decoration: none;
@@ -83,6 +87,20 @@ a:visited {
     .text-content {
         max-width: none;
     }
+}
+
+
+// Spacing
+// -------
+
+.ma10 {
+    margin: 10px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.ml0 {
+    margin-left: 0;
 }
 
 
@@ -136,8 +154,9 @@ a:visited {
     display: block;
 }
 
-.inline-list > li {
-    display: inline;
+.floated-list > li {
+    display: block;
+    float: left;
 }
 
 .image-grid li {
@@ -169,4 +188,35 @@ a:visited {
         width: auto;
         padding-right: 0;
     }
+}
+
+
+// Icons
+// -----
+
+.icon {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.icon-36x36 {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-size: 36px 36px;
+}
+.icon-instagram-36x36 {
+    background-image: url('/asset/image/icon/instagram-36x36.png');
+    background-image: url('/asset/image/icon/instagram-36x36.svg'), none;
+}
+.icon-link-36x36 {
+    background-image: url('/asset/image/icon/link-36x36.png');
+    background-image: url('/asset/image/icon/link-36x36.svg'), none;
+}
+.icon-tumblr-36x36 {
+    background-image: url('/asset/image/icon/tumblr-36x36.png');
+    background-image: url('/asset/image/icon/tumblr-36x36.svg'), none;
+}
+.icon-twitter-36x36 {
+    background-image: url('/asset/image/icon/twitter-36x36.png');
+    background-image: url('/asset/image/icon/twitter-36x36.svg'), none;
 }
