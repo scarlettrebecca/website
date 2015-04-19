@@ -45,9 +45,9 @@
         <header role="banner">
             <div class="type-margin cleared">
 
-                <h1 class="cramp pin-left mq1000-unpin" itemprop="name">
+                <h1 class="cramp pin-left mq1000-unpin">
                     <span class="logo">&nbsp;</span>
-                    {{site.data.author.name|xml_escape}}
+                    <span itemprop="name">{{site.data.author.name|xml_escape}}</span>
                 </h1>
 
                 <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
@@ -82,6 +82,13 @@
 
                 <section>
                     <h2>About Me</h2>
+                    {% if site.data.author.image %}
+                        <div class="pin-left profile-image">
+                            <div class="profile-image-inner">
+                                <img src="image/{{site.data.author.image}}" alt="{{site.data.author.name}}" itemprop="image"/>
+                            </div>
+                        </div>
+                    {% endif %}
                     <div class="text-content" itemprop="description">
                         {{site.data.author.about}}
                     </div>
