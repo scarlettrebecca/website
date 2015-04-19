@@ -24,9 +24,17 @@ h1, h2 {
 }
 h1, .h1 {
     @include rem(font-size, 30px);
+    @include rem(line-height, 46px);
 }
 h2, .h2 {
     @include rem(font-size, 20px);
+}
+@media all and (max-width: 400px) {
+    h1, .h1 {
+        @include rem(font-size, 25px);
+        @include rem(line-height, 38px);
+        text-align: center;
+    }
 }
 h1, h2, p, ul, ol, .type-margin {
     margin-top: 0;
@@ -94,10 +102,10 @@ a:visited {
 // -------
 
 .ma10 {
-    margin: 10px;
+    @include rem(margin, 10px);
 }
 .mr10 {
-    margin-right: 10px;
+    @include rem(margin-right, 10px);
 }
 .ml0 {
     margin-left: 0;
@@ -125,6 +133,16 @@ a:visited {
     width: 1px;
     height: 1px;
     overflow: hidden;
+}
+@media all and (max-width: 1000px) {
+    .mq1000-hidden {
+        position: absolute;
+        top: -999999em;
+        left: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
 }
 
 .pin-left {
@@ -219,4 +237,25 @@ a:visited {
 .icon-twitter-36x36 {
     background-image: url('/asset/image/icon/twitter-36x36.png');
     background-image: url('/asset/image/icon/twitter-36x36.svg'), none;
+}
+
+
+// Logo
+// ----
+
+.logo {
+    display: inline-block;
+    width: 52px;
+    height: auto;
+    background-size: 52px auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('/asset/image/logo-52x36.png');
+    background-image: url('/asset/image/logo-52x36.svg'), none;
+}
+@media all and (max-width: 400px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
 }

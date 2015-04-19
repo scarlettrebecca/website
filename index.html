@@ -35,13 +35,14 @@
             <div class="type-margin cleared">
 
                 <h1 class="cramp pin-left mq1000-unpin" itemprop="name">
+                    <span class="logo">&nbsp;</span>
                     {{site.data.author.name|xml_escape}}
                 </h1>
 
                 <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
                 <meta itemprop="jobTitle" content="Illustrator"/>
 
-                <ul class="secret-list floated-list cramp pin-right mq1000-unpin h1">
+                <ul class="secret-list floated-list cramp pin-right mq1000-hidden h1">
                     {% for link in site.data.author.links %}
                         <li class="ma10 ml0">
                             <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
