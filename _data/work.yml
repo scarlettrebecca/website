@@ -1,4 +1,10 @@
 
+# Your work. Each piece of work has an image and a
+# label. The label is the text that is seen when
+# somebody hovers over an image, and the image
+# should be the name of an image that exists in the
+# "image" folder (including the extension)
+
 - image: aunty-flo.jpg
   label: Aunty Flo
 

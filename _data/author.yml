@@ -20,7 +20,10 @@ about: >
 
 # Links that appear in the header. Each link has
 # a label, URL, and icon name. You will only see
-# icons for ones that I've coded.
+# icons for ones that I've coded:
+# "email", "twitter", "instagram", "tumblr".
+# If you don't add an icon, it will show a default
+# link icon.
 links:
 
   - label: Email Scarlett
