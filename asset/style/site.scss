@@ -21,13 +21,14 @@ body {
 }
 h1, h2 {
     font-weight: normal;
+    font-family: Georgia, Times, "Times New Roman", serif;
 }
 h1, .h1 {
     @include rem(font-size, 30px);
     @include rem(line-height, 46px);
 }
 h2, .h2 {
-    @include rem(font-size, 20px);
+    @include rem(font-size, 25px);
 }
 @media all and (max-width: 400px) {
     h1, .h1 {
