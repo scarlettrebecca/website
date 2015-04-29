@@ -15,8 +15,21 @@ description: Scarlett Rebecca is an illustrator and printmaker living in Brighto
 # This can be HTML, and all text should be wrapped
 # in <p> tags. Ask me if you need help.
 about: >
-    <p>This is some information about you consectetur adipiscing elit. Aliquam non commodo justo. Phasellus iaculis erat <a href="http://example.com/">scelerisque iaculis</a> fringilla. Quisque a tincidunt metus. Morbi tempor mauris vitae fermentum feugiat.</p>
-    <p>You can use HTML in here. Nulla luctus sed turpis vehicula lacinia. Nam eros dui, mattis ac tortor ut, elementum mollis <a href="http://scarlettrebecca.co.uk/">turpis</a>. Sed augue augue, pretium id elementum vitae, auctor at neque. Integer pharetra mauris nulla, sed porttitor dolor gravida ut</p>
+  <p>
+      Hello, I am Scarlett Rebecca, a doodler and printmaker living in Brighton.
+      Working predominantly with print I produce illustrations for posters,
+      album art, editorial and private commission.
+  </p>
+  <p>
+      With a fondness for the handmade I make my work using traditional
+      printmaking techniques; lino cutting, silk screen and monoprint,
+      and I have just discovered the wonderful world of etching.
+  </p>
+  <p>
+      To contact me about commissions and collaborations please
+      <a href="mailto:contact@scarlettrebecca.co.uk">send me an email</a>,
+      or you are very likely to find me drawing at the Brighton Sealife Centre.
+  </p>
 
 # Links that appear in the header. Each link has
 # a label, URL, and icon name. You will only see
