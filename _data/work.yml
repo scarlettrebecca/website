@@ -8,6 +8,30 @@
 # Images should be 300x300px dimensions, and saved
 # for web (ideally as JPEG files)
 
+- image: sun-and-peony-repeat.jpg
+  label: Sun and Peony Repeat
+
+- image: song-book-101-jack-sharp.jpg
+  label: Song Book 101 Jack Sharp
+
+- image: walter-j-wallis-ukedelia.jpg
+  label: Walter J Wallis Ukedelia
+
+- image: brighton-komedia-sealife-attack.jpg
+  label: Brighton Komedia Sealife Attack
+
+- image: cactus-club.jpg
+  label: Cactus Club
+
+- image: brighton-wheel-sealife-attack.jpg
+  label: Brighton Wheel Sealife Attack
+
+- image: dinosaur-wedding-invitations.jpg
+  label: Dinosaur Wedding Invitations
+
+- image: fuchsia-repeat.jpg
+  label: Fuchsia Repeat
+
 - image: aunty-flo.jpg
   label: Aunty Flo
 
