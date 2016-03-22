@@ -3,8 +3,14 @@
 <head>
 
     <meta charset="utf-8"/>
-    <title>{{site.data.author.name|xml_escape}}</title>
-    <meta name="description" content="{{site.data.author.description | xml_escape}}"/>
+    <title>
+        {% if page.title %}{{page.title}} : {% endif %}{{site.data.author.name|xml_escape}}
+    </title>
+    <meta name="description" content="{% if page.description %}{{pagepage.description}}{% else %}{{site.data.author.description | xml_escape}}{% endif %}"/>
+    {% if page.sitemap == false %}<meta name="robots" content="noindex"/>{% endif %}
+
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
+    <link rel="canonical" href="http://scarlettrebecca.co.uk{{ page.url | replace: 'index.html', '' }}"/>
 
     <meta name="viewport" content="width=device-width"/>
     <!--[if gt IE 6]><!-->
@@ -38,18 +44,19 @@
         </p>
     <![endif]-->
 
-    <div class="page" itemscope itemtype="http://schema.org/Person">
+    <div class="page">
 
         <header role="banner">
             <div class="type-margin cleared">
 
-                <h1 class="cramp pin-left mq1000-unpin">
-                    <span class="logo">&nbsp;</span>
-                    <span itemprop="name">{{site.data.author.name|xml_escape}}</span>
-                </h1>
-
-                <link itemprop="url" href="http://scarlettrebecca.co.uk/"/>
-                <meta itemprop="jobTitle" content="Illustrator"/>
+                <div class="cramp pin-left mq1000-unpin">
+                    {% if page.url == '/' %}<h1>{% else %}<div class="h1">{% endif %}
+                    <a href="/" class="secret-link">
+                        <span class="logo">&nbsp;</span>
+                        {{site.data.author.name|xml_escape}}
+                    </a>
+                    {% if page.url == '/' %}</h1>{% else %}</div>{% endif %}
+                </div>
 
                 <ul class="secret-list floated-list cramp pin-right mq1000-hidden h1">
                     {% for link in site.data.author.links %}
