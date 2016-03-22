@@ -106,8 +106,12 @@ a.secret-link {
 .text-content {
     max-width: 48%;
 }
+.text-content-wide {
+    max-width: 75%;
+}
 @media all and (max-width: 800px) {
-    .text-content {
+    .text-content,
+    .text-content-wide {
         max-width: none;
     }
 }
@@ -306,5 +310,36 @@ a.secret-link {
 @media all and (max-width: 400px) {
     .profile-image {
         width: 50%;
+    }
+}
+
+
+// Slideshow
+// ---------
+
+.slideshow {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+
+    &__slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 0;
+        opacity: 0;
+        transition: opacity .5s;
+
+        img {
+            display: block;
+        }
+
+        &--current {
+            display: block;
+            z-index: 1;
+            opacity: 1;
+        }
     }
 }

@@ -1,0 +1,29 @@
+
+# The slideshow. Each slide has an image and a
+# label. The label is the text that is seen when
+# somebody hovers over an image, and the image
+# should be the name of an image that exists in the
+# "image/wedding/slideshow" folder
+# (including the extension)
+#
+# Images should be 1000x400px dimensions, and saved
+# for web (ideally as JPEG files)
+
+slideshow:
+
+  - image: example-01.jpg
+    label: Example Slide 01
+
+  - image: example-02.jpg
+    label: Example Slide 02
+
+  - image: example-03.jpg
+    label: Example Slide 03
+
+# The blurb about the wedding stuff.
+# This can be HTML, and all text should be wrapped
+# in <p> tags. Ask me if you need help.
+blurb: >
+  <p>
+      Well would you lookie here at my pretty pictures about weddings and stuff!
+  </p>
