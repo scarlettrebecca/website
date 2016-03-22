@@ -8,7 +8,7 @@ permalink: /
         {% for work in site.data.work %}
             <li class="{% cycle '', 'tablet-last', '', 'last' %}">
                 <div>
-                    <img src="image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
+                    <img src="/image/{{work.image|xml_escape}}" alt="{{work.label|xml_escape}}" title="{{work.label|xml_escape}}"/>
                 </div>
             </li>
         {% endfor %}
@@ -20,7 +20,7 @@ permalink: /
     {% if site.data.author.image %}
         <div class="pin-left profile-image">
             <div class="profile-image-inner">
-                <img src="image/{{site.data.author.image}}" alt="{{site.data.author.name}}"/>
+                <img src="/image/{{site.data.author.image}}" alt="{{site.data.author.name}}"/>
             </div>
         </div>
     {% endif %}
