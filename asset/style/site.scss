@@ -359,3 +359,19 @@ a.secret-link {
 .highslide-dimming {
     background-color: #000;
 }
+
+.highslide-loading {
+	display: block;
+	color: black;
+	font-size: 9px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 3px;
+	border: 1px solid white;
+	background-color: white;
+	padding-left: 22px;
+	background-image: url(/asset/image/highslide/loader.white.gif);
+	background-repeat: no-repeat;
+	background-position: 3px 1px;
+}
