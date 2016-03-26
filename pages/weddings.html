@@ -4,7 +4,7 @@ permalink: /weddings/
 sitemap: false
 ---
 
-<h1>{{page.title}}</h1>
+<h1 class="center">{{page.title}}</h1>
 
 <ul class="slideshow cleared" data-play-speed="2500" style="height: 400px;">
     {% for slide in site.data.weddings.slideshow %}
@@ -14,6 +14,6 @@ sitemap: false
     {% endfor %}
 </ul>
 
-<div class="text-content-wide">
+<div class="center-section">
     {{site.data.weddings.blurb}}
 </div>

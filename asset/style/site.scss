@@ -103,15 +103,12 @@ a.secret-link {
 // Content styles
 // --------------
 
-.text-content {
-    max-width: 48%;
-}
-.text-content-wide {
-    max-width: 75%;
+.center-section {
+    max-width: 60%;
+    margin: 0 auto;
 }
 @media all and (max-width: 800px) {
-    .text-content,
-    .text-content-wide {
+    .center-section {
         max-width: none;
     }
 }

@@ -16,22 +16,22 @@ permalink: /
 </section>
 
 <section>
-    <h2>About Me</h2>
-    {% if site.data.author.image %}
-        <div class="pin-left profile-image">
-            <div class="profile-image-inner">
-                <img src="/image/{{site.data.author.image}}" alt="{{site.data.author.name}}"/>
+    <div class="center-section">
+        <h2>About Me</h2>
+        {% if site.data.author.image %}
+            <div class="pin-left profile-image">
+                <div class="profile-image-inner">
+                    <img src="/image/{{site.data.author.image}}" alt="{{site.data.author.name}}"/>
+                </div>
             </div>
-        </div>
-    {% endif %}
-    <div class="text-content">
+        {% endif %}
         {{site.data.author.about}}
+        <ul class="secret-list floated-list cleared">
+            {% for link in site.data.author.links %}
+                <li class="mr10">
+                    <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
+                </li>
+            {% endfor %}
+        </ul>
     </div>
-    <ul class="secret-list floated-list cleared">
-        {% for link in site.data.author.links %}
-            <li class="mr10">
-                <a rel="me" href="{{link.url|xml_escape}}" title="{{link.label|xml_escape}}" class="hide-text icon icon-36x36 icon-{% if link.icon %}{{link.icon|xml_escape}}{% else %}link{% endif %}-36x36">{{link.label|xml_escape}}</a>
-            </li>
-        {% endfor %}
-    </ul>
 </section>
