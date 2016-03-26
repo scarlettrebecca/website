@@ -32,11 +32,19 @@
 
         // Load the site script
         if (cutsTheMustard) {
+
+            var highslideScript = document.createElement('script');
+            highslideScript.async = highslideScript.defer = true;
+            highslideScript.src = '/asset/script/vendor/highslide.packed.js';
+
             var siteScript = document.createElement('script');
             siteScript.async = siteScript.defer = true;
             siteScript.src = '/asset/script/site.js';
+
             var firstScript = document.getElementsByTagName('script')[0];
             firstScript.parentNode.insertBefore(siteScript, firstScript);
+            firstScript.parentNode.insertBefore(highslideScript, firstScript);
+
         }
 
         // Analytics

@@ -197,7 +197,9 @@ a.secret-link {
     width: 25%;
     float: left;
 }
-.image-grid div {
+.image-grid div,
+.image-grid a {
+    display: block;
     padding-right: 10px;
     padding-bottom: 10px;
 }
@@ -339,4 +341,21 @@ a.secret-link {
             opacity: 1;
         }
     }
+}
+
+
+// Highslide
+// ---------
+
+.highslide-caption,
+.highslide-wrapper {
+    background-color: #fff;
+}
+
+.highslide-caption {
+    text-align: center;
+}
+
+.highslide-dimming {
+    background-color: #000;
 }

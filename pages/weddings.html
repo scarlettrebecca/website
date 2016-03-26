@@ -17,3 +17,16 @@ sitemap: false
 <div class="center-section">
     {{site.data.weddings.blurb}}
 </div>
+
+<section>
+    <h2 class="center">Ranges</h2>
+    <ul class="secret-list image-grid cleared">
+        {% for range in site.data.weddings.ranges %}
+            <li class="{% cycle '', 'tablet-last', '', 'last' %}">
+                <a href="/image/wedding/range/{{range.image|xml_escape}}" class="highslide">
+                    <img src="/image/wedding/range/{{range.thumbnail|xml_escape}}" alt="{{range.label|xml_escape}}" title="{{range.label|xml_escape}}"/>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
+</section>

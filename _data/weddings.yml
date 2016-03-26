@@ -8,7 +8,6 @@
 #
 # Images should be 1000x400px dimensions, and saved
 # for web (ideally as JPEG files)
-
 slideshow:
 
   - image: example-01.jpg
@@ -32,3 +31,34 @@ blurb: >
   <p>
       Vivamus luctus gravida pulvinar. Aenean non viverra lorem, quis porttitor lorem. Cras congue ultricies faucibus. Cras elementum mi a mattis mollis. Cras libero metus, viverra ut semper ut, tincidunt eu quam. Fusce placerat eleifend nunc nec facilisis. Praesent blandit elit et aliquam efficitur.
   </p>
+
+# The ranges. Each item has an image, a thumbnail
+# image, and a label. The label is the text that
+# appears next to the image, and the image/thumbnail
+# should be the name of an image that exists in the
+# "image/wedding/range" folder
+# (including the extension)
+#
+# Images can be any dimension (but best not to exceed
+# 1000px in either width or height) and saved for web
+# (ideally as JPEG files)
+#
+# Thumbnails should be 300x300px dimensions, and saved
+# for web (ideally as JPEG files)
+ranges:
+
+  - image: example-01.jpg
+    thumbnail: example-01.thumb.jpg
+    label: Example 01
+
+  - image: example-02.jpg
+    thumbnail: example-02.thumb.jpg
+    label: Example 02
+
+  - image: example-03.jpg
+    thumbnail: example-03.thumb.jpg
+    label: Example 03
+
+  - image: example-04.jpg
+    thumbnail: example-04.thumb.jpg
+    label: Example 04
