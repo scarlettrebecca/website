@@ -6,7 +6,7 @@ sitemap: false
 
 <h1 class="center">{{page.title}}</h1>
 
-<ul class="slideshow cleared" data-play-speed="2500" style="height: 400px;">
+<ul class="slideshow cleared" data-play-speed="2500">
     {% for slide in site.data.weddings.slideshow %}
         <li class="slideshow__slide {% if forloop.first %}slideshow__slide--current{% endif %}">
             <img src="/image/wedding/slideshow/{{slide.image|xml_escape}}" alt="{{slide.label|xml_escape}}" title="{{slide.label|xml_escape}}"/>

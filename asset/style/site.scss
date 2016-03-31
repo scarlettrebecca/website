@@ -322,23 +322,47 @@ a.secret-link {
     position: relative;
     list-style: none;
     padding-left: 0;
+    height: 400px;
 
     &__slide {
         position: absolute;
         top: 0;
-        left: 0;
+        left: 50%;
+        margin-left: -500px;
         z-index: 0;
         opacity: 0;
         transition: opacity .5s;
 
         img {
+            width: 1000px;
             display: block;
+            position: absolute;
         }
 
         &--current {
             display: block;
             z-index: 1;
             opacity: 1;
+        }
+    }
+
+    @media all and (max-width: 800px) {
+        height: 200px;
+        &__slide {
+            margin-left: -300px;
+            img {
+                width: 600px;
+            }
+        }
+    }
+
+    @media all and (max-width: 400px) {
+        height: 100px;
+        &__slide {
+            margin-left: -150px;
+            img {
+                width: 300px;
+            }
         }
     }
 }
