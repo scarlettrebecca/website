@@ -30,7 +30,10 @@ h1, .h1 {
 h2, .h2 {
     @include rem(font-size, 25px);
 }
-@media all and (max-width: 400px) {
+.line-height-36 {
+    @include rem(line-height, 36px);
+}
+@media all and (max-width: 800px) {
     h1, .h1 {
         @include rem(font-size, 25px);
         @include rem(line-height, 38px);
@@ -70,6 +73,10 @@ a:visited {
 a.secret-link {
     color: inherit;
     text-decoration: none;
+}
+.inherit-color,
+a.inherit-color {
+    color: inherit;
 }
 
 
@@ -123,8 +130,16 @@ a.secret-link {
 .mr10 {
     @include rem(margin-right, 10px);
 }
+.mr20 {
+    @include rem(margin-right, 20px);
+}
 .ml0 {
     margin-left: 0;
+}
+@media all and (max-width: 800px) {
+    .mq800-mb0 {
+        margin-bottom: 0;
+    }
 }
 
 
@@ -275,10 +290,25 @@ a.secret-link {
     background-image: url('../image/logo-52x36.png');
     background-image: url('../image/logo-52x36.svg'), none;
 }
-@media all and (max-width: 400px) {
+@media all and (max-width: 800px) {
     .logo {
         display: block;
         margin: 0 auto;
+    }
+}
+
+
+// Navigation
+// ----------
+
+@media all and (max-width: 800px) {
+    .nav {
+        text-align: center;
+    }
+    .nav > li {
+        float: none;
+        display: inline-block;
+        margin: 10px;
     }
 }
 
