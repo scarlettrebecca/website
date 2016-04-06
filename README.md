@@ -19,6 +19,7 @@ Editing
 - [Edit the wedding page content](https://github.com/scarlettrebecca/website/edit/gh-pages/_data/weddings.yml)
 - [Upload images for the wedding page slideshow](https://github.com/scarlettrebecca/website/upload/gh-pages/image/wedding/slideshow) _(make sure to check the rules in the content file)_
 - [Upload images for the wedding page ranges](https://github.com/scarlettrebecca/website/upload/gh-pages/image/wedding/range) _(make sure to check the rules in the content file)_
+- [Upload documents for the wedding page price list](https://github.com/scarlettrebecca/website/upload/gh-pages/document)
 
 
 Licence
