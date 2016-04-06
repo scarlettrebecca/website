@@ -19,6 +19,7 @@ sitemap: false
 </div>
 
 <section>
+
     <h2 class="center">Ranges</h2>
     <ul class="secret-list image-grid cleared">
         {% for range in site.data.weddings.ranges %}
@@ -26,6 +27,24 @@ sitemap: false
                 <a href="/image/wedding/range/{{range.image|xml_escape}}" class="highslide">
                     <img src="/image/wedding/range/{{range.thumbnail|xml_escape}}" alt="{{range.label|xml_escape}}" title="{{range.label|xml_escape}}"/>
                 </a>
+            </li>
+        {% endfor %}
+    </ul>
+
+    {% assign order = site.data.weddings.order %}
+    {% assign email = order.email|url_encode|replace:"+","%20" %}
+    {% assign subject = order.subject|url_encode|replace:"+","%20" %}
+    {% assign message = order.message|url_encode|replace:"+","%20" %}
+    <a href="mailto:{{email}}?subject={{subject}}&amp;body={{message}}">Make an order</a>
+
+</section>
+
+<section>
+    <h2 class="hidden">Links</h2>
+    <ul>
+        {% for link in site.data.weddings.links %}
+            <li>
+                <a href="{{link.url|xml_escape}}">{{link.label|xml_escape}}</a>
             </li>
         {% endfor %}
     </ul>

@@ -62,3 +62,35 @@ ranges:
   - image: example-04.jpg
     thumbnail: example-04.thumb.jpg
     label: Example 04
+
+# The order email details
+#
+# The email is the email address you want them to
+# send the order to.
+#
+# The subject is the email subject line.
+#
+# The message is the actual email template that
+# will appear in their email client. They can
+# change this before sending etc. This can be
+# on multiple lines, but with no HTML.
+order:
+  email: contact@scarlettrebecca.co.uk
+  subject: I want some invites
+  message: >
+    Yeah you heard right, send me some invites.
+
+    Now, Please.
+
+# Links that appear in the footer. Each link has
+# a label and URL.
+links:
+
+  - label: Mailing List
+    url: https://en.wikipedia.org/wiki/Mailing_list
+
+  - label: Get in touch about bespoke design
+    url: mailto:contact@scarlettrebecca.co.uk?subject=Bespoke Wedding Designs
+
+  - label: Price List
+    url: /document/price-list.pdf
