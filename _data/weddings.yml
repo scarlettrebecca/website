@@ -10,14 +10,27 @@
 # for web (ideally as JPEG files)
 slideshow:
 
-  - image: example-01.jpg
-    label: Example Slide 01
+  - image: brush-and-ink-collection.jpg
+    label: Brush and ink collection
 
-  - image: example-02.jpg
-    label: Example Slide 02
+  - image: bw-printing.jpg
+    label: Printing
 
-  - image: example-03.jpg
-    label: Example Slide 03
+  - image: bw-printing2.jpg
+    label: Printing
+
+  - image: grid-of-designs.jpg
+    label: Grid of designs
+
+  - image: janeausten-green-collection.jpg
+    label: Jane Austen Green collection
+
+  - image: marbled-close-up.jpg
+    label: Marbled close-up
+
+  - image: screen-scar-rebs.jpg
+    label: Screen Printing
+
 
 # The blurb about the wedding stuff.
 # This can be HTML, and all text should be wrapped
