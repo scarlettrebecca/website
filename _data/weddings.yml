@@ -60,21 +60,37 @@ blurb: >
 # for web (ideally as JPEG files)
 ranges:
 
-  - image: example-01.jpg
-    thumbnail: example-01.thumb.jpg
-    label: Example 01
+  - image: baroqueasaurus-1.jpg
+    thumbnail: baroqueasaurus.thumb.jpg
+    label: Baroqueasaurus Wedding Collection
 
-  - image: example-02.jpg
-    thumbnail: example-02.thumb.jpg
-    label: Example 02
+  - image: marble-universe-1.jpg
+    thumbnail: marble-universe.thumb.jpg
+    label: Marble Universe Wedding Collection
 
-  - image: example-03.jpg
-    thumbnail: example-03.thumb.jpg
-    label: Example 03
+  - image: petal-and-ink-1.jpg
+    thumbnail: petail-and-ink.thumb.jpg
+    label: Petal and Ink Wedding Collection
 
-  - image: example-04.jpg
-    thumbnail: example-04.thumb.jpg
-    label: Example 04
+  - image: elephant-mehndi-1.jpg
+    thumbnail: elephant-mehndi.thumb.jpg
+    label: Elephant Mehndi Wedding Collection
+    
+    - image: geometric-1.jpg
+    thumbnail: geometric.thumb.jpg
+    label: Geometric Wedding Collection
+    
+    - image: jane-austen-1.jpg
+    thumbnail: jane-austen.thumb.jpg
+    label: Jane Austen Wedding Collection
+    
+    - image: roses-1.jpg
+    thumbnail: roses.thumb.jpg
+    label: Roses Wedding Collection
+    
+    - image: hummingbirds-1.jpg
+    thumbnail: hummingbirds.thumb.jpg
+    label: Hummingbirds Wedding Collection
 
 # The order email details
 #
