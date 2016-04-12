@@ -88,7 +88,7 @@ ranges:
     thumbnail: roses.thumb.jpg
     label: Roses Wedding Collection
     
-   - image: hummingbirds-1.jpg
+  - image: hummingbirds-1.jpg
     thumbnail: hummingbirds.thumb.jpg
     label: Hummingbirds Wedding Collection
 
