@@ -8,6 +8,7 @@
 
 $font-family-sans: Tahoma, Verdana, Segoe, sans-serif;
 $font-family-serif: Georgia, Times, "Times New Roman", serif;
+$font-family-cursive: Meddon, cursive;
 
 
 // Typography
@@ -25,6 +26,9 @@ body {
 h1, h2, .h1, .h2, .serif {
     font-weight: normal;
     font-family: $font-family-serif;
+}
+.cursive {
+    font-family: $font-family-cursive;
 }
 h1, .h1 {
     @include rem(font-size, 30px);
