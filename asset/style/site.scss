@@ -6,6 +6,9 @@
 @import "vendor/necolas/normalize";
 @import "vendor/rowanmanning/rem";
 
+$font-family-sans: Tahoma, Verdana, Segoe, sans-serif;
+$font-family-serif: Georgia, Times, "Times New Roman", serif;
+
 
 // Typography
 // ----------
@@ -16,12 +19,12 @@ html {
 body {
     font-size: 1.6em;
     line-height: 1.563;
-    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-family: $font-family-sans;
     color: #333;
 }
-h1, h2, .h1, .h2 {
+h1, h2, .h1, .h2, .serif {
     font-weight: normal;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: $font-family-serif;
 }
 h1, .h1 {
     @include rem(font-size, 30px);
