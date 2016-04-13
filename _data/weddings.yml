@@ -75,19 +75,19 @@ ranges:
   - image: elephant-mehndi-1.jpg
     thumbnail: elephant-mehndi.thumb.jpg
     label: Elephant Mehndi Wedding Collection
-    
+
   - image: geometric-1.jpg
     thumbnail: geometric.thumb.jpg
     label: Geometric Wedding Collection
-    
+
   - image: jane-austen-1.jpg
     thumbnail: jane-austen.thumb.jpg
     label: Jane Austen Wedding Collection
-    
+
   - image: roses-1.jpg
     thumbnail: roses.thumb.jpg
     label: Roses Wedding Collection
-    
+
   - image: hummingbirds-1.jpg
     thumbnail: hummingbirds.thumb.jpg
     label: Hummingbirds Wedding Collection
