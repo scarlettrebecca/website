@@ -6,7 +6,7 @@
     <title>
         {% if page.title %}{{page.title}} : {% endif %}{{site.data.author.name|xml_escape}}
     </title>
-    <meta name="description" content="{% if page.description %}{{pagepage.description}}{% else %}{{site.data.author.description | xml_escape}}{% endif %}"/>
+    <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.data.author.description | xml_escape}}{% endif %}"/>
     {% if page.sitemap == false %}<meta name="robots" content="noindex"/>{% endif %}
 
     <link rel="sitemap" type="application/xml" href="/sitemap.xml" title="Sitemap"/>
