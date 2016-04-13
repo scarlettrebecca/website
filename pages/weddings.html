@@ -46,10 +46,12 @@ sitemap: false
 
 <section>
     <h2 class="hidden">Links</h2>
-    <ul>
+    <ul class="secret-list inline-list center cramp cleared">
         {% for link in site.data.weddings.links %}
-            <li>
-                <a href="{{link.url|xml_escape}}">{{link.label|xml_escape}}</a>
+            <li class="ma10 ml10 mr20 line-height-36 serif">
+                <a href="{{link.url|xml_escape}}" class="pa10 wedding-link">
+                    {{link.label|xml_escape}}
+                </a>
             </li>
         {% endfor %}
     </ul>

@@ -149,6 +149,9 @@ a.inherit-color {
         margin-bottom: 0;
     }
 }
+.pa10 {
+    @include rem(padding, 10px);
+}
 
 
 // Display
@@ -214,6 +217,10 @@ a.inherit-color {
 .floated-list > li {
     display: block;
     float: left;
+}
+
+.inline-list > li {
+    display: inline-block;
 }
 
 .image-grid li {
@@ -458,4 +465,13 @@ a.inherit-color {
         border: solid 3px lighten($color-link, 20%);
         text-decoration: none;
     }
+}
+
+
+// Wedding Links
+// -------------
+
+.wedding-link {
+    background-color: #f7f5f0;
+    border-radius: 5px;
 }
