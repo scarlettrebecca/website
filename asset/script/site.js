@@ -5,16 +5,26 @@
 
         // Configure Highslide
         hs.align = 'center';
-        hs.captionEval = 'this.thumb.alt';
+        hs.captionEval = 'this.a.title';
         hs.dimmingDuration = hs.expandDuration = 200;
         hs.dimmingOpacity = 0.75;
         hs.graphicsDir = '/asset/image/highslide/';
         hs.outlineType = 'rounded-white';
         hs.showCredits = false;
+        hs.transitions = ['expand', 'crossfade'];
+        hs.addSlideshow({
+            repeat: false,
+            useControls: true,
+            fixedControls: 'fit',
+            overlayOptions: {
+                opacity: 0.75,
+                position: 'bottom center',
+                hideOnMouseOut: true
+            }
+        });
 
         // Instantiate everything
         var slideshows = qs('.slideshow').forEach(createSlideshow);
-        var highslides = qs('.highslide').forEach(createHighslide);
 
     }
 
@@ -107,31 +117,6 @@
         };
         slideshow.init(element);
         return slideshow;
-    }
-
-    // Create a highslide
-    function createHighslide (element) {
-        var highslide = {
-
-            init: function (element) {
-                this.element = element;
-                this.bindEvents();
-            },
-
-            bindEvents: function () {
-                this.element.addEventListener('click', this.expand.bind(this), false);
-            },
-
-            expand: function (event) {
-                hs.expand(this.element);
-                if (event) {
-                    event.preventDefault();
-                }
-            }
-
-        };
-        highslide.init(element);
-        return highslide;
     }
 
     function qs (selector, context) {

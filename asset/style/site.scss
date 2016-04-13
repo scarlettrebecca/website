@@ -414,39 +414,6 @@ a.inherit-color {
 }
 
 
-// Highslide
-// ---------
-
-.highslide-caption,
-.highslide-wrapper {
-    background-color: #fff;
-}
-
-.highslide-caption {
-    text-align: center;
-}
-
-.highslide-dimming {
-    background-color: #000;
-}
-
-.highslide-loading {
-	display: block;
-	color: black;
-	font-size: 9px;
-	font-weight: bold;
-	text-transform: uppercase;
-	text-decoration: none;
-	padding: 3px;
-	border: 1px solid white;
-	background-color: white;
-	padding-left: 22px;
-	background-image: url(/asset/image/highslide/loader.white.gif);
-	background-repeat: no-repeat;
-	background-position: 3px 1px;
-}
-
-
 // Order Button
 // ------------
 
@@ -474,4 +441,134 @@ a.inherit-color {
 .wedding-link {
     background-color: #f7f5f0;
     border-radius: 5px;
+}
+
+
+// Highslide
+// ---------
+
+.highslide-caption,
+.highslide-wrapper {
+    background-color: #fff;
+}
+
+.highslide-caption {
+    text-align: center;
+}
+
+.highslide-dimming {
+    background-color: #000;
+}
+
+.highslide-loading {
+    display: block;
+    color: black;
+    font-size: 9px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 3px;
+    border: 1px solid white;
+    background-color: white;
+    padding-left: 22px;
+    background-image: url(/asset/image/highslide/loader.white.gif);
+    background-repeat: no-repeat;
+    background-position: 3px 1px;
+}
+
+.highslide-controls {
+    width: 195px;
+    height: 40px;
+    background: url(/asset/image/highslide/controlbar-white.gif) 0 -90px no-repeat;
+    margin: 20px 15px 10px 0;
+}
+.highslide-controls ul {
+    position: relative;
+    left: 15px;
+    height: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: url(/asset/image/highslide/controlbar-white.gif) right -90px no-repeat;
+}
+.highslide-controls li {
+    float: left;
+    padding: 5px 0;
+    margin:0;
+    list-style: none;
+}
+.highslide-controls a {
+    background-image: url(/asset/image/highslide/controlbar-white.gif);
+    display: block;
+    float: left;
+    height: 30px;
+    width: 30px;
+    outline: none;
+}
+.highslide-controls a.disabled {
+    cursor: default;
+}
+.highslide-controls a.disabled span {
+    cursor: default;
+}
+.highslide-controls a span {
+    /* hide the text for these graphic buttons */
+    display: none;
+    cursor: pointer;
+}
+
+/* The CSS sprites for the controlbar - see http://www.google.com/search?q=css+sprites */
+.highslide-controls .highslide-previous a {
+    background-position: 0 0;
+}
+.highslide-controls .highslide-previous a:hover {
+    background-position: 0 -30px;
+}
+.highslide-controls .highslide-previous a.disabled {
+    background-position: 0 -60px !important;
+}
+.highslide-controls .highslide-play a {
+    background-position: -30px 0;
+}
+.highslide-controls .highslide-play a:hover {
+    background-position: -30px -30px;
+}
+.highslide-controls .highslide-play a.disabled {
+    background-position: -30px -60px !important;
+}
+.highslide-controls .highslide-pause a {
+    background-position: -60px 0;
+}
+.highslide-controls .highslide-pause a:hover {
+    background-position: -60px -30px;
+}
+.highslide-controls .highslide-next a {
+    background-position: -90px 0;
+}
+.highslide-controls .highslide-next a:hover {
+    background-position: -90px -30px;
+}
+.highslide-controls .highslide-next a.disabled {
+    background-position: -90px -60px !important;
+}
+.highslide-controls .highslide-move a {
+    background-position: -120px 0;
+}
+.highslide-controls .highslide-move a:hover {
+    background-position: -120px -30px;
+}
+.highslide-controls .highslide-full-expand a {
+    background-position: -150px 0;
+}
+.highslide-controls .highslide-full-expand a:hover {
+    background-position: -150px -30px;
+}
+.highslide-controls .highslide-full-expand a.disabled {
+    background-position: -150px -60px !important;
+}
+.highslide-controls .highslide-close a {
+    background-position: -180px 0;
+}
+.highslide-controls .highslide-close a:hover {
+    background-position: -180px -30px;
 }

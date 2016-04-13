@@ -45,12 +45,13 @@ blurb: >
       Vivamus luctus gravida pulvinar. Aenean non viverra lorem, quis porttitor lorem. Cras congue ultricies faucibus. Cras elementum mi a mattis mollis. Cras libero metus, viverra ut semper ut, tincidunt eu quam. Fusce placerat eleifend nunc nec facilisis. Praesent blandit elit et aliquam efficitur.
   </p>
 
-# The ranges. Each item has an image, a thumbnail
-# image, and a label. The label is the text that
-# appears next to the image, and the image/thumbnail
-# should be the name of an image that exists in the
-# "image/wedding/range" folder
-# (including the extension)
+# The ranges. Each item has a thumbnail image, a
+# label, and a list of full size images.
+
+# The label is the text that appears next to the
+# image, and the images/thumbnail should be the names
+# of images that exist in the "image/wedding/range"
+# folder (including the extension)
 #
 # Images can be any dimension (but best not to exceed
 # 1000px in either width or height) and saved for web
@@ -60,37 +61,57 @@ blurb: >
 # for web (ideally as JPEG files)
 ranges:
 
-  - image: baroqueasaurus-1.jpg
+  - name: Baroqueasaurus Wedding Collection
     thumbnail: baroqueasaurus.thumb.jpg
-    label: Baroqueasaurus Wedding Collection
+    images:
+      - baroqueasaurus-1.jpg
+      - baroqueasaurus-2.jpg
 
-  - image: marble-universe-1.jpg
+  - name: Marble Universe Wedding Collection
     thumbnail: marble-universe-thumb.jpg
-    label: Marble Universe Wedding Collection
+    images:
+      - marble-universe-1.jpg
+      - marble-universe-2.jpg
+      - marble-universe-3.jpg
 
-  - image: petal-and-ink-1.jpg
+  - name: Petal and Ink Wedding Collection
     thumbnail: petal-and-ink.thumb.jpg
-    label: Petal and Ink Wedding Collection
+    images:
+      - petal-and-ink-1.jpg
+      - petal-and-ink-2.jpg
 
-  - image: elephant-mehndi-1.jpg
+  - name: Elephant Mehndi Wedding Collection
     thumbnail: elephant-mehndi.thumb.jpg
-    label: Elephant Mehndi Wedding Collection
+    images:
+      - elephant-mehndi-1.jpg
+      - elephant-mehndi-2.jpg
 
-  - image: geometric-1.jpg
+  - name: Geometric Wedding Collection
     thumbnail: geometric.thumb.jpg
-    label: Geometric Wedding Collection
+    images:
+      - geometric-1.jpg
+      - geometric-2.jpg
 
-  - image: jane-austen-1.jpg
+  - name: Jane Austen Wedding Collection
     thumbnail: jane-austen.thumb.jpg
-    label: Jane Austen Wedding Collection
+    images:
+      - jane-austen-1.jpg
+      - jane-austen-2.jpg
 
-  - image: roses-1.jpg
+  - name: Roses Wedding Collection
     thumbnail: roses.thumb.jpg
-    label: Roses Wedding Collection
+    images:
+      - roses-1.jpg
+      - roses-2.jpg
+      - roses-3.jpg
 
-  - image: hummingbirds-1.jpg
+  - name: Hummingbirds Wedding Collection
     thumbnail: hummingbirds.thumb.jpg
-    label: Hummingbirds Wedding Collection
+    images:
+      - hummingbirds-1.jpg
+      - hummingbirds-2.jpg
+      - hummingbirds-3.jpg
+      - hummingbirds-4.jpg
 
 # The order email details
 #

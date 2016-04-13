@@ -22,13 +22,26 @@ sitemap: false
 <section class="type-margin-x2">
 
     <h2 class="center cursive">Ranges</h2>
+
     <ul class="secret-list image-grid cleared">
         {% for range in site.data.weddings.ranges %}
-            <li class="{% cycle '', 'tablet-last', '', 'last' %}">
-                <a href="/image/wedding/range/{{range.image|xml_escape}}" class="highslide">
-                    <img src="/image/wedding/range/{{range.thumbnail|xml_escape}}" alt="{{range.label|xml_escape}}" title="{{range.label|xml_escape}}"/>
-                </a>
+
+            {% assign rangeId = forloop.index %}
+
+            <li class="{% cycle '', 'tablet-last', '', 'last' %} highslide-gallery" data-gallery-id="{{rangeId}}">
+                {% for image in range.images %}
+                    {% if forloop.first %}
+                        <a id="range-{{rangeId}}-thumb" href="/image/wedding/range/{{image|xml_escape}}" class="highslide" onclick="return hs.expand(this, { thumbnailId: 'range-{{rangeId}}-thumb', slideshowGroup: {{rangeId}} });" title="{{range.name|xml_escape}} {{forloop.index}}">
+                            <img src="/image/wedding/range/{{range.thumbnail|xml_escape}}" alt="{{range.name|xml_escape}} {{forloop.index}}"/>
+                        </a>
+                    {% else %}
+                        <a href="/image/wedding/range/{{image|xml_escape}}" class="highslide hidden" title="{{range.name|xml_escape}} {{forloop.index}}" onclick="return hs.expand(this, { thumbnailId: 'range-{{rangeId}}-thumb', slideshowGroup: {{rangeId}} });">
+                            {{range.name}} {{forloop.index}}
+                        </a>
+                    {% endif %}
+                {% endfor %}
             </li>
+
         {% endfor %}
     </ul>
 
