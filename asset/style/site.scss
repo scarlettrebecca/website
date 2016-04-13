@@ -450,6 +450,8 @@ a.inherit-color {
     border: solid 3px #fff;
     border-radius: 10px;
     color: #fff;
+    font-family: $font-family-serif;
+    @include rem(font-size, 18px);
     transition: border .2s;
 
     &:hover {
