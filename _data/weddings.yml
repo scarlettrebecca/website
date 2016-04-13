@@ -94,6 +94,8 @@ ranges:
 
 # The order email details
 #
+# The label is the text on the order button.
+#
 # The email is the email address you want them to
 # send the order to.
 #
@@ -104,6 +106,7 @@ ranges:
 # change this before sending etc. This can be
 # on multiple lines, but with no HTML.
 order:
+  label: Order Wedding Stationery
   email: contact@scarlettrebecca.co.uk
   subject: I want some invites
   message: >

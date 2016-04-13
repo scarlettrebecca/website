@@ -19,7 +19,7 @@ sitemap: false
     {{site.data.weddings.blurb}}
 </div>
 
-<section>
+<section class="type-margin-x2">
 
     <h2 class="center cursive">Ranges</h2>
     <ul class="secret-list image-grid cleared">
@@ -36,7 +36,11 @@ sitemap: false
     {% assign email = order.email|url_encode|replace:"+","%20" %}
     {% assign subject = order.subject|url_encode|replace:"+","%20" %}
     {% assign message = order.message|url_encode|replace:"+","%20" %}
-    <a href="mailto:{{email}}?subject={{subject}}&amp;body={{message}}">Make an order</a>
+    <div class="center">
+        <a href="mailto:{{email}}?subject={{subject}}&amp;body={{message}}" class="order-button">
+            {{site.data.weddings.order.label}}
+        </a>
+    </div>
 
 </section>
 

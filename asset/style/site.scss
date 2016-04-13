@@ -9,6 +9,7 @@
 $font-family-sans: Tahoma, Verdana, Segoe, sans-serif;
 $font-family-serif: Georgia, Times, "Times New Roman", serif;
 $font-family-cursive: Meddon, cursive;
+$color-link: #2c9f96;
 
 
 // Typography
@@ -68,7 +69,7 @@ h1, h2, p, ul, ol, .type-margin {
     text-align: center;
 }
 a {
-    color: #2c9f96;
+    color: $color-link;
     text-decoration: none;
 }
 a:hover {
@@ -436,4 +437,23 @@ a.inherit-color {
 	background-image: url(/asset/image/highslide/loader.white.gif);
 	background-repeat: no-repeat;
 	background-position: 3px 1px;
+}
+
+
+// Order Button
+// ------------
+
+.order-button {
+    display: inline-block;
+    padding: 10px;
+    background-color: $color-link;
+    border: solid 3px #fff;
+    border-radius: 10px;
+    color: #fff;
+    transition: border .2s;
+
+    &:hover {
+        border: solid 3px lighten($color-link, 20%);
+        text-decoration: none;
+    }
 }
