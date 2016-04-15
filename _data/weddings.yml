@@ -37,13 +37,15 @@ slideshow:
 # in <p> tags. Ask me if you need help.
 blurb: >
   <p>
-      Well would you lookie here at my pretty pictures about weddings and stuff! Lorem ipsum dolor
-      sit amet, consectetur adipiscing elit. Mauris sollicitudin nulla vitae varius pulvinar.
-      Phasellus vel tristique ante. Vivamus vel ullamcorper lorem. Pellentesque et ultricies quam.
+      There is nothing that makes me happier than seeing my designs come to life in print, especially with screen printing. There is nothing that quite matches the magical feeling at the moment when I pull up the screen to reveal the finished print in all its glory. I love the process of screen printing and as I hand print all my designs I really feel part of the whole journey.
   </p>
+      
   <p>
-      Vivamus luctus gravida pulvinar. Aenean non viverra lorem, quis porttitor lorem. Cras congue ultricies faucibus. Cras elementum mi a mattis mollis. Cras libero metus, viverra ut semper ut, tincidunt eu quam. Fusce placerat eleifend nunc nec facilisis. Praesent blandit elit et aliquam efficitur.
+Whether you want to work together to capture your own dream designs for your special day or customise one of my lovingly created collections, we can make something completely unique to you. The colours and text of my existing collections are completely customisable to the colour scheme of your own wedding. 
+The wedding stationery you send out to your loved ones is the first impression they will get of your big day, so let’s make it unforgettable.
+
   </p>
+  
 
 # The ranges. Each item has a thumbnail image, a
 # label, and a list of full size images.
@@ -129,11 +131,52 @@ ranges:
 order:
   label: Order Wedding Stationery
   email: contact@scarlettrebecca.co.uk
-  subject: I want some invites
+  subject: Wedding Stationery Enquiry
   message: >
-    Yeah you heard right, send me some invites.
+   
+. . . . . . . . . . . . 
 
-    Now, Please.
+Hello,
+
+Thank you for your interest in my wedding stationery collections!
+
+Please fill in the fields below; if you have any additional requests, prices of pearlescent envelopes for example, please add these at the end of the email.
+
+More information about the individual collections, ordering and colour choices can be found in the ‘Price & Ordering Information’ pdf on my website.
+
+You can delete this section from your email once you have finished.
+
+I will aim to respond to your enquiry with a quote in the next 5 working days.
+
+Scarlett
+
+x
+. . . . . . . . . . . . . .
+
+Collection:
+Item:
+(Delete as appropriate) 1 colour print / 2 colour print
+Amount:
+Card colour:
+Envelope colour:
+
+Collection:
+Item:
+(Delete as appropriate) 1 colour print / 2 colour print
+Amount:
+Card colour:
+Envelope colour:
+
+
+Collection:
+Item:
+(Delete as appropriate) 1 colour print / 2 colour print
+Amount:
+Card colour:
+Envelope colour:
+
+Additional Requests & Queries:
+
 
 # Links that appear in the footer. Each link has
 # a label and URL.
