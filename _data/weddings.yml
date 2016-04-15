@@ -128,11 +128,11 @@ ranges:
 # change this before sending etc. This can be
 # on multiple lines, but with no HTML.
 order:
-  label: Order Wedding Stationery
+  label: Order Your Wedding Stationery
   email: contact@scarlettrebecca.co.uk
   subject: Wedding Stationery Enquiry
-  message:>
-
+  message:
+>
 ........... .......... ..........  
 Hello,
 
@@ -178,6 +178,7 @@ Additional Requests & Queries..
 
 # Links that appear in the footer. Each link has
 # a label and URL.
+
 links:
 
   - label: Mailing List
