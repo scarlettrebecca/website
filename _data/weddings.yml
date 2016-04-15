@@ -214,7 +214,7 @@ order:
 links:
 
   - label: Mailing List
-    url: https://en.wikipedia.org/wiki/Mailing_list
+#    url: https://en.wikipedia.org/wiki/Mailing_list
 
   - label: Get in touch about bespoke design
     url: mailto:contact@scarlettrebecca.co.uk?subject=Bespoke Wedding Designs
