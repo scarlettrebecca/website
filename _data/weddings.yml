@@ -162,17 +162,17 @@ order:
     
    
    
-    Collection..
+    Collection%3A
     
-    Item..
+    Item%3A
     
     (Delete as appropriate) 1 colour print / 2 colour print
     
-    Amount..
+    Amount%3A
     
-    Card colour..
+    Card colour%3A
     
-    Envelope colour..
+    Envelope colour %3A
     
     
     
@@ -213,7 +213,7 @@ order:
 
 links:
 
-  - label: Mailing List
+#  - label: Mailing List
 #    url: https://en.wikipedia.org/wiki/Mailing_list
 
   - label: Get in touch about bespoke design
