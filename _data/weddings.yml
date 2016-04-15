@@ -131,49 +131,48 @@ order:
   label: Order Your Wedding Stationery
   email: contact@scarlettrebecca.co.uk
   subject: Wedding Stationery Enquiry
-  message:
->
-........... .......... ..........  
-Hello,
-
-Thank you for your interest in my wedding stationery collections!
-
-Please fill in the fields below; if you have any additional requests, prices of pearlescent envelopes for example, please add these at the end of the email.
-
-More information about the individual collections, ordering and colour choices can be found in the ‘Price & Ordering Information’ pdf on my website.
-
-You can delete this section from your email once you have finished.
-
-I will aim to respond to your enquiry with a quote in the next 5 working days.
-
-Scarlett
-
-x
-........... .......... ..........
-
-Collection..
-Item..
-(Delete as appropriate) 1 colour print / 2 colour print
-Amount..
-Card colour..
-Envelope colour..
-
-Collection..
-Item..
-(Delete as appropriate) 1 colour print / 2 colour print
-Amount..
-Card colour..
-Envelope colour..
-
-
-Collection..
-Item..
-(Delete as appropriate) 1 colour print / 2 colour print
-Amount..
-Card colour..
-Envelope colour..
-
-Additional Requests & Queries..
+  message: >
+    ........... .......... ..........  
+    Hello,
+    
+    Thank you for your interest in my wedding stationery collections!
+    
+    Please fill in the fields below; if you have any additional requests, prices of pearlescent envelopes for example, please add these at the end of the email.
+    
+    More information about the individual collections, ordering and colour choices can be found in the ‘Price & Ordering Information’ pdf on my website.
+    
+    You can delete this section from your email once you have finished.
+    
+    I will aim to respond to your enquiry with a quote in the next 5 working days.
+    
+    Scarlett
+    
+    x
+    ........... .......... ..........
+    
+    Collection..
+    Item..
+    (Delete as appropriate) 1 colour print / 2 colour print
+    Amount..
+    Card colour..
+    Envelope colour..
+    
+    Collection..
+    Item..
+    (Delete as appropriate) 1 colour print / 2 colour print
+    Amount..
+    Card colour..
+    Envelope colour..
+    
+    
+    Collection..
+    Item..
+    (Delete as appropriate) 1 colour print / 2 colour print
+    Amount..
+    Card colour..
+    Envelope colour..
+    
+    Additional Requests & Queries..
 
 
 # Links that appear in the footer. Each link has
