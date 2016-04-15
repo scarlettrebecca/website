@@ -162,17 +162,17 @@ order:
     
    
    
-    Collection%3A
+    Collection..
     
-    Item%3A
+    Item..
     
     (Delete as appropriate) 1 colour print / 2 colour print
     
-    Amount%3A
+    Amount..
     
-    Card colour%3A
+    Card colour..
     
-    Envelope colour %3A
+    Envelope colour..
     
     
     
