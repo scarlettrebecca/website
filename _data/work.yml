@@ -8,6 +8,18 @@
 # Images should be 300x300px dimensions, and saved
 # for web (ideally as JPEG files)
 
+- image: david-attenborough.jpg
+  label: David Attenborough portrait
+
+- image: birds-of-portugal.jpg
+  label: Birds of Portugal lino prints
+
+- image: panoramic-pete-lino-cut.jpg
+  label: Panoramic Pete portrait lino cut
+
+- image: countryside-linocuts.jpg
+  label: Countryside Lino prints
+
 - image: pink-stream.jpg
   label: Pink Stream lino print
 
