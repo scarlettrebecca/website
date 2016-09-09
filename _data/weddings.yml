@@ -12,6 +12,9 @@ slideshow:
 
   - image: brush-and-ink-collection.jpg
     label: Brush and ink collection
+  
+  - image: coming-soon.jpg
+    label: Couples Workshops Coming Soon
 
   - image: bw-printing.jpg
     label: Printing
@@ -31,8 +34,7 @@ slideshow:
   - image: screen-scar-rebs.jpg
     label: Screen Printing
     
-  - image: coming-soon.jpg
-    label: Couples Workshops Coming Soon
+
 
 
 # The blurb about the wedding stuff.
