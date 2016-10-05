@@ -137,83 +137,15 @@ ranges:
 # change this before sending etc. This can be
 # on multiple lines, but with no HTML.
 order:
-  label: Order Your Wedding Stationery
+  label: Get In Contact About Your Bespoke Wedding Stationery
   email: contact@scarlettrebecca.co.uk
   subject: Wedding Stationery Enquiry
   message: >
-    ........... .......... ..........
-    
-    
-    Hello,
-    
-    
-    Thank you for your interest in my wedding stationery collections!
-    
-    
-    Please fill in the fields below; if you have any additional requests, prices of pearlescent envelopes for example, please add these at the end of the email.
-    
-    
-    More information about the individual collections, ordering and colour choices can be found in the ‘Price & Ordering Information’ pdf on my website.
-    
-    
-    You can delete this section from your email once you have finished.
-    
-    
-    I will aim to respond to your enquiry with a quote in the next 5 working days.
-    
-    
-    Scarlett
-    
-    
-    x
     
     ........... .......... ..........
     
-   
-   
-    Collection..
-    
-    Item..
-    
-    (Delete as appropriate) 1 colour print / 2 colour print
-    
-    Amount..
-    
-    Card colour..
-    
-    Envelope colour..
     
     
-    
-    Collection..
-    
-    Item..
-    
-    (Delete as appropriate) 1 colour print / 2 colour print
-    
-    Amount..
-    
-    Card colour..
-    
-    Envelope colour..
-    
-    
-    
-    Collection..
-    
-    Item..
-    
-    (Delete as appropriate) 1 colour print / 2 colour print
-    
-    Amount..
-    
-    Card colour..
-    
-    Envelope colour..
-    
-    
-    
-    Additional Requests & Queries..
     
 
 
@@ -222,11 +154,11 @@ order:
 
 links:
 
-  - label: Join the Mailing List
+  - label: MAILING LIST
     url: http://eepurl.com/bY9bsT
 
-  - label: Get in touch about bespoke design
-    url: mailto:contact@scarlettrebecca.co.uk?subject=Bespoke Wedding Designs
+  - label: ETSY SHOP
+    url: https://www.etsy.com/uk/shop/ScarlettRebecca
 
-  - label: Prices & Ordering Information
-    url: /document/Ordering-Information.pdf
+- label: * FACEBOOK *
+    url: https://www.facebook.com/scarlettrebeccaweddings/
