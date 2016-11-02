@@ -8,11 +8,11 @@
 #
 # Images should be 1000x400px dimensions, and saved
 # for web (ideally as JPEG files)
-slideshow: >
+slideshow:
 
   - image: brush-and-ink-collection.jpg
     label: Brush and ink collection
-  
+
   - image: coming-soon.jpg
     label: Couples Workshops Coming Soon
 
