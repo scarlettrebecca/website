@@ -50,7 +50,7 @@ blurb: >
   </p>
   
   <p>
-      *  *  *  *  *  C O U P L E S   P R I N T   W O R K S H O P S  *  *  *  *  *
+       *  *  * &nbsp C O U P L E S &nbsp P R I N T &nbsp W O R K S H O P S &nbsp *  *  * 
   </p>
   
   <p>
@@ -145,7 +145,7 @@ ranges:
 # change this before sending etc. This can be
 # on multiple lines, but with no HTML.
 order:
-  label: Get In Contact About Your Bespoke Wedding Stationery
+  label: Get In Contact 
   email: contact@scarlettrebecca.co.uk
   subject: Wedding Stationery Enquiry
   message: >
