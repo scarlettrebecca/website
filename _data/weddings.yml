@@ -12,9 +12,15 @@ slideshow:
 
   - image: brush-and-ink-collection.jpg
     label: Brush and ink collection
+    
+  - image: creative-couples-workshop.jpg
+    label: Creative Couples Print Workshops
 
   - image: couples-print-workshops.jpg
     label: Couples Print Workshops 
+  
+  - image: hands-carving.jpg
+    label: Lino Print Carving
 
   - image: grid-of-designs.jpg
     label: Grid of designs
@@ -23,9 +29,6 @@ slideshow:
     label: Jane Austen Green collection
     
   - image: bw-printing.jpg
-    label: Printing
-
-  - image: bw-printing2.jpg
     label: Printing
 
   - image: marbled-close-up.jpg
