@@ -8,6 +8,18 @@
 # Images should be 300x300px dimensions, and saved
 # for web (ideally as JPEG files)
 
+- image: wedding-cake.jpg
+  label: Tropical Wedding Cake
+
+- image: vegetable-pattern.jpg
+  label: Vegetable Print Pattern
+
+- image: poppy-pattern.jpg
+  label: Poppy repeat pattern
+
+- image: christmas-tree.jpg
+  label: Christmas Tree Card
+  
 - image: leonard-cohen.jpg
   label: Leonard Cohen portrait
 
