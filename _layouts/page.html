@@ -15,38 +15,12 @@
     <meta name="viewport" content="width=device-width"/>
     <!--[if gt IE 6]><!-->
         <link rel="stylesheet" href="/asset/style/site.css"/>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Meddon&text=Scarlett%20RebeccaAboutMeWeddingStationeryRanges"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Meddon&text=Scarlett%20RebeccaAboutMe"/>
     <!--<![endif]-->
     <link rel="icon" href="/favicon.png" type="image/png"/>
     <link rel="shortcut icon" href="/favicon.ico"/>
 
     <script>
-
-        // Cuts the mustard test
-        var cutsTheMustard = (
-            'querySelector' in document &&
-            'addEventListener' in window &&
-            'forEach' in Array.prototype &&
-            'bind' in Function.prototype
-        );
-
-
-        // Load the site script
-        if (cutsTheMustard) {
-
-            var highslideScript = document.createElement('script');
-            highslideScript.async = highslideScript.defer = true;
-            highslideScript.src = '/asset/script/vendor/highslide.packed.js';
-
-            var siteScript = document.createElement('script');
-            siteScript.async = siteScript.defer = true;
-            siteScript.src = '/asset/script/site.js';
-
-            var firstScript = document.getElementsByTagName('script')[0];
-            firstScript.parentNode.insertBefore(siteScript, firstScript);
-            firstScript.parentNode.insertBefore(highslideScript, firstScript);
-
-        }
 
         // Analytics
         if (/^(www\.)?scarlettrebecca.co.uk$/.test(document.location.host)) {
@@ -88,29 +62,7 @@
                     {% if page.url == '/' %}</h1>{% else %}</div>{% endif %}
                 </div>
 
-                {% assign weddingsLive = false %}
-                {% for sitePage in site.pages %}
-                    {% if sitePage.url == '/weddings/' %}
-                        {% if sitePage.sitemap != false %}
-                            {% assign weddingsLive = true %}
-                        {% endif %}
-                    {% endif %}
-                {% endfor %}
-
                 <ul class="secret-list floated-list nav cramp pin-right mq1000-unpin">
-
-                    {% if weddingsLive %}
-                        <li class="ma10 ml10 mr20 line-height-36 serif">
-                            <a href="/" class="inherit-color">
-                                Portfolio
-                            </a>
-                        </li>
-                        <li class="ma10 ml0 mr20 line-height-36 serif">
-                            <a href="/weddings/" class="inherit-color">
-                                Weddings
-                            </a>
-                        </li>
-                    {% endif %}
 
                     {% for link in site.data.author.links %}
                         <li class="ma10 ml0 mq1000-hidden">
