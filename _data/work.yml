@@ -10,7 +10,28 @@
 
   
 - image: leonard-cohen.jpg
-  label: Leonard Cohen portrait
+  label: Leonard Cohen linocut portrait
+  
+- image: victoria-wood.jpg
+  label: Victoria Wood linocut portrait
+  
+- image: ronnie-corbett.jpg
+  label: Ronnie Corbett linocut portrait
+  
+- image: harper-lee.jpg
+  label: Harper Lee linocut portrait
+  
+- image: fox.jpg
+  label: British Wildlife Fox Lino prints
+  
+- image: countryside-linocuts.jpg
+  label: Countryside Lino prints
+  
+- image: dandelion.jpg
+  label: Dandelion Wildilife Lino prints
+  
+- image: snail.jpg
+  label: British Wildlife Snail Lino print
 
 - image: change-of-address-cards.jpg
   label: Change of Address printed cards
@@ -24,9 +45,6 @@
 - image: panoramic-pete-lino-cut.jpg
   label: Panoramic Pete portrait lino cut
 
-- image: countryside-linocuts.jpg
-  label: Countryside Lino prints
-
 - image: walter-j-wallis-ukedelia.jpg
   label: Walter J Wallis Ukedelia
 
@@ -35,6 +53,9 @@
 
 - image: peugeot.jpg
   label: Peugeot
+  
+- image: dragon.jpg
+  label: Dragon children's book
 
 - image: tara-and-jason.jpg
   label: Tara and Jason Wedding Invitation
