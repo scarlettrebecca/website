@@ -32,18 +32,21 @@
   
 - image: snail.jpg
   label: British Wildlife Snail Lino print
-
-- image: change-of-address-cards.jpg
-  label: Change of Address printed cards
+  
+- image: david-attenborough.jpg
+  label: David Attenborough portrait
+  
+- image: mr-perez.jpg
+  label: Mr Perez linocut portrait
   
 - image: david-attenborough.jpg
   label: David Attenborough portrait
 
 - image: panoramic-pete-lino-cut.jpg
   label: Panoramic Pete portrait lino cut
-
-- image: walter-j-wallis-ukedelia.jpg
-  label: Walter J Wallis Ukedelia
+  
+- image: sweet-lips.jpg
+  label: Sweet Lips Fish Man linocut portrait
   
 - image: shrike-bird.jpg
   label: British Birds lino prints Shrike
@@ -57,6 +60,18 @@
 - image: jay-bird.jpg
   label: British Birds lino prints Jay
   
+- image: gin-lady.jpg
+  label: Gin Label linocut
+  
+- image: bee-inspired-left.jpg
+  label: Garden Bees Shed linocut
+  
+- image: bee-inspired-right.jpg
+  label: Garden Bees Shed linocut
+  
+- image: under-the-sea-zine.jpg
+  label: Under The Sea Zine
+  
 - image: dragon-roar-left.jpg
   label: Dragon children's book
   
@@ -69,15 +84,5 @@
 - image: vegetarian-dragon-right.jpg
   label: Dragon children's book
 
-- image: aunty-flo.jpg
-  label: Aunty Flo
 
-- image: peugeot.jpg
-  label: Peugeot
-  
 
-- image: tara-and-jason.jpg
-  label: Tara and Jason Wedding Invitation
-
-- image: under-the-sea-zine.jpg
-  label: Under The Sea Zine
