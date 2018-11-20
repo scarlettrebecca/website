@@ -39,14 +39,23 @@
 - image: david-attenborough.jpg
   label: David Attenborough portrait
 
-- image: birds-of-portugal.jpg
-  label: Birds of Portugal lino prints
-
 - image: panoramic-pete-lino-cut.jpg
   label: Panoramic Pete portrait lino cut
 
 - image: walter-j-wallis-ukedelia.jpg
   label: Walter J Wallis Ukedelia
+  
+- image: wagtail_bird.jpg
+  label: British Birds lino prints Wagtail
+
+- image: birds-of-portugal.jpg
+  label: Birds of Portugal lino prints
+
+- image: shrike-bird.jpg
+  label: British Birds lino prints Shrike
+
+- image: jay-bird.jpg
+  label: British Birds lino prints Jay
 
 - image: aunty-flo.jpg
   label: Aunty Flo
