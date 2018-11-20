@@ -56,6 +56,18 @@
 
 - image: jay-bird.jpg
   label: British Birds lino prints Jay
+  
+- image: roar-dragon-left.jpg
+  label: Dragon children's book
+  
+- image: roar-dragon-right.jpg
+  label: Dragon children's book
+  
+- image: vegetarian-dragon-left.jpg
+  label: Dragon children's book
+  
+- image: vegetarian-dragon-right.jpg
+  label: Dragon children's book
 
 - image: aunty-flo.jpg
   label: Aunty Flo
@@ -63,8 +75,6 @@
 - image: peugeot.jpg
   label: Peugeot
   
-- image: dragon.jpg
-  label: Dragon children's book
 
 - image: tara-and-jason.jpg
   label: Tara and Jason Wedding Invitation
