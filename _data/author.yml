@@ -16,14 +16,14 @@ description: Scarlett Rebecca is an illustrator and printmaker living in Brighto
 # in <p> tags. Ask me if you need help.
 about: >
   <p>
-      Hello, I am Scarlett Rebecca, an illustrator, doodler and printmaker living in Brighton.
+      Hello, I am Scarlett Rebecca, an illustrator, and printmaker living in Brighton.
       I work predominantly with hand drawing and hand printed methods to produce my work.
-      I have a great fondness for the handmade, I make my work using traditional printmaking techniques such as linocut and monoprint, I then combine these gorgeous handmade textures with digital techniques.
+     
   </p>
   <p>
-      I am interested in editorial illustration, designing for surface pattern and art licensing. If you would like to work together, please
+      If you would like to work together, please
       <a href="mailto:contact@scarlettrebecca.co.uk">send me an email</a>,
-      or you are very likely to find me drawing at the Brighton Sealife Centre.
+      or you are very likely to find me drawing at the Brighton Booth Museum.
   </p>
 
 # Links that appear in the header. Each link has
@@ -46,6 +46,4 @@ links:
     url: https://instagram.com/scarlettrebecca
     icon: instagram
 
-  - label: Scarlett Rebecca's Tumblr
-    url: http://scarlettrebecca.tumblr.com/
-    icon: tumblr
+  -
